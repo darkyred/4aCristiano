@@ -54,7 +54,7 @@ public class MenuPrincipalController implements Initializable {
     try{
     FXMLLoader fxmlLoader = new FXMLLoader();
     fxmlLoader.setLocation(getClass().getResource("Aluno.fxml"));
-    Scene scene = new Scene(fxmlLoader.load(),900,682);
+    Scene scene = new Scene(fxmlLoader.load(),500,500);
     Stage stage = new Stage();
     stage.setTitle("Cadastrar Aluno");
     stage.setScene(scene);
@@ -67,6 +67,7 @@ catch(IOException e){
 
     @FXML
     private void fecharprojeto(ActionEvent event) {
+    
     }
     
 }
